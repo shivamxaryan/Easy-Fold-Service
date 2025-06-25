@@ -1,4 +1,4 @@
-package com.example.demo.dto.response;
+package com.example.easyFold.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonInclude;

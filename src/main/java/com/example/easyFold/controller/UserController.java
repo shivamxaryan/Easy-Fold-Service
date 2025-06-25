@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.example.easyFold.controller;
 
-import com.example.demo.dto.request.UserRegistrationRequest;
-import com.example.demo.dto.response.ResponseModel;
-import com.example.demo.service.UserService;
+import com.example.easyFold.dto.request.UserRegistrationRequest;
+import com.example.easyFold.dto.response.ResponseModel;
+import com.example.easyFold.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

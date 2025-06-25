@@ -1,7 +1,7 @@
-package com.example.demo.entity;
+package com.example.easyFold.entity;
 
-import com.example.demo.entity.Enum.OrderStatus;
-import com.example.demo.entity.Enum.ServiceFulfillmentType;
+import com.example.easyFold.entity.Enum.OrderStatus;
+import com.example.easyFold.entity.Enum.ServiceFulfillmentType;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

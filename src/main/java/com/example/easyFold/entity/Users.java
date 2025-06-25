@@ -1,8 +1,8 @@
-package com.example.demo.entity;
+package com.example.easyFold.entity;
 
-import com.example.demo.entity.Enum.GenderType;
-import com.example.demo.entity.Enum.Status;
-import com.example.demo.entity.Enum.UserType;
+import com.example.easyFold.entity.Enum.GenderType;
+import com.example.easyFold.entity.Enum.Status;
+import com.example.easyFold.entity.Enum.UserType;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
