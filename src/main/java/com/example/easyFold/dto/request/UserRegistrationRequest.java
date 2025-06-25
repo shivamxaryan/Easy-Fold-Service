@@ -4,6 +4,7 @@ import com.example.easyFold.entity.Enum.GenderType;
 import com.example.easyFold.entity.Enum.UserType;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.*;
 
@@ -28,7 +29,7 @@ public class UserRegistrationRequest {
     @NotBlank(message = "Please enter a valid date of birth")
     private String dob;
 
-    @NotBlank(message = "Gender cannot be blank")
+    @NotNull(message = "Gender cannot be blank")
     private GenderType gender;
 
     @Email
@@ -38,7 +39,7 @@ public class UserRegistrationRequest {
 
     private AddressRequestDto address;
 
-    @NotBlank(message = "User type cannot be blank")
+    @NotNull(message = "User type cannot be blank")
     private UserType userType;
 
 }

@@ -47,6 +47,7 @@ public class UserService {
             phoneRepository.save(phone);
 
             Address address = new Address();
+            address.setUser(savedUser);
             address.setAddressType(userRegistrationRequest.getAddress().getAddressType());
             address.setAddressLine1(userRegistrationRequest.getAddress().getAddressLine1());
             address.setAddressLine2(userRegistrationRequest.getAddress().getAddressLine2());
