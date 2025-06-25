@@ -1,13 +1,20 @@
 package com.example.easyFold.dto.request;
 
+import com.example.easyFold.entity.Enum.AddressType;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.UUID;
 
+@Getter
+@Setter
 public class AddressRequestDto {
     private UUID userId;
+
+    private AddressType addressType;
 
     @NotBlank(message = "Address Line 1 is required")
     @Size(max = 255, message = "Address Line 1 cannot exceed 255 characters")

@@ -1,5 +1,6 @@
 package com.example.easyFold.entity;
 
+import com.example.easyFold.entity.Enum.AddressType;
 import com.example.easyFold.entity.Enum.Status;
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -13,6 +14,9 @@ public class Address extends BaseEntity{
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
     private Users user;
+
+    @Column(name="address_type", nullable = false)
+    private AddressType addressType = AddressType.PERMANENT;
 
     @Column(name = "address_line1", nullable = false)
     private String addressLine1;
