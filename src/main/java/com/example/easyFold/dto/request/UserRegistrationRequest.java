@@ -1,7 +1,7 @@
-package com.example.demo.dto.request;
+package com.example.easyFold.dto.request;
 
-import com.example.demo.entity.Enum.GenderType;
-import com.example.demo.entity.Enum.UserType;
+import com.example.easyFold.entity.Enum.GenderType;
+import com.example.easyFold.entity.Enum.UserType;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

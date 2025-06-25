@@ -1,4 +1,4 @@
-package com.example.demo.dto.request;
+package com.example.easyFold.dto.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.NotBlank;

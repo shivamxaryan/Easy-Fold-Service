@@ -1,4 +1,4 @@
-package com.example.demo.entity.Enum;
+package com.example.easyFold.entity.Enum;
 
 public enum ServiceName {
     WASH_FOLD, IRONING, BOTH
